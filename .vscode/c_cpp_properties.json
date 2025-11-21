@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Ovke/Downloads/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include",
+                "C:/Users/Ovke/Downloads/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed",
+                "C:/Users/Ovke/Downloads/x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0/mingw64/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
