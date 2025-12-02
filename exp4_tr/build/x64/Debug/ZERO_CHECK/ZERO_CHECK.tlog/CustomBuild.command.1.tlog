@@ -1,0 +1,10 @@
+^C:\USERS\OVKE\DESKTOP\CTEST\EXP4_TR\BUILD\CMAKEFILES\A76CAFFF57E83786F95F74E1CCD45222\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ovke/Desktop/CTest/exp4_tr -BC:/Users/Ovke/Desktop/CTest/exp4_tr/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ovke/Desktop/CTest/exp4_tr/build/exp4_tr.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
