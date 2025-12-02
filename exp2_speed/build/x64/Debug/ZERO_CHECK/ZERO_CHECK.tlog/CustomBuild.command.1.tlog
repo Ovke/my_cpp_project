@@ -1,0 +1,10 @@
+^C:\USERS\OVKE\DESKTOP\CTEST\EXP2_SPEED\BUILD\CMAKEFILES\972117D73311669482364D26026DA836\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ovke/Desktop/CTest/exp2_speed -BC:/Users/Ovke/Desktop/CTest/exp2_speed/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ovke/Desktop/CTest/exp2_speed/build/exp2_basic.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

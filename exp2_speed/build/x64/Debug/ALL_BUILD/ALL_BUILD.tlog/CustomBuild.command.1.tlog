@@ -1,0 +1,10 @@
+^C:\USERS\OVKE\DESKTOP\CTEST\EXP2_SPEED\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ovke/Desktop/CTest/exp2_speed -BC:/Users/Ovke/Desktop/CTest/exp2_speed/build --check-stamp-file C:/Users/Ovke/Desktop/CTest/exp2_speed/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

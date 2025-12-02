@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Ovke/Desktop/CTest/exp2_speed/build/cmake_install.cmake",
+		"C:/Users/Ovke/Desktop/CTest/exp2_speed/build/googletest/cmake_install.cmake",
+		"C:/Users/Ovke/Desktop/CTest/exp2_speed/build/googletest/googlemock/cmake_install.cmake",
+		"C:/Users/Ovke/Desktop/CTest/exp2_speed/build/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
