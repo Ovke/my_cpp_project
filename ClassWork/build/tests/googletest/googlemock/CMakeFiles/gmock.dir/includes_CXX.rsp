@@ -1,0 +1,1 @@
+-IC:/Users/Ovke/Desktop/CTest/ClassWork/include -IC:/Users/Ovke/Desktop/CTest/ClassWork/tests/googletest/googlemock/include -IC:/Users/Ovke/Desktop/CTest/ClassWork/tests/googletest/googlemock -isystem C:/Users/Ovke/Desktop/CTest/ClassWork/tests/googletest/googletest/include -isystem C:/Users/Ovke/Desktop/CTest/ClassWork/tests/googletest/googletest

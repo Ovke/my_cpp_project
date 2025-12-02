@@ -1,0 +1,2 @@
+C:\Users\Ovke\Downloads\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\mingw64\bin\ar.exe qc libexec_lib.a CMakeFiles/exec_lib.dir/src/SportCar.cpp.obj CMakeFiles/exec_lib.dir/src/Bus.cpp.obj CMakeFiles/exec_lib.dir/src/Executor.cpp.obj
+C:\Users\Ovke\Downloads\x86_64-15.2.0-release-win32-seh-ucrt-rt_v13-rev0\mingw64\bin\ranlib.exe libexec_lib.a

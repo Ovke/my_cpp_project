@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Ovke/Desktop/CTest/ClassWork/build/cmake_install.cmake",
+		"C:/Users/Ovke/Desktop/CTest/ClassWork/build/tests/googletest/cmake_install.cmake",
+		"C:/Users/Ovke/Desktop/CTest/ClassWork/build/tests/googletest/googlemock/cmake_install.cmake",
+		"C:/Users/Ovke/Desktop/CTest/ClassWork/build/tests/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

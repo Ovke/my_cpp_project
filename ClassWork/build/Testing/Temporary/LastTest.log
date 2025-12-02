@@ -1,0 +1,37 @@
+Start testing: Dec 02 15:10 中国标准时间
+----------------------------------------------------------
+1/1 Testing: ExecutorTest
+1/1 Test: ExecutorTest
+Command: "C:/Users/Ovke/Desktop/CTest/ClassWork/build/test_executor.exe"
+Directory: C:/Users/Ovke/Desktop/CTest/ClassWork/build
+"ExecutorTest" start time: Dec 02 15:10 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\Ovke\Desktop\CTest\ClassWork\tests\googletest\googletest\src\gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from ExecutorTest
+[ RUN      ] ExecutorTest.SportCarMove
+[       OK ] ExecutorTest.SportCarMove (0 ms)
+[ RUN      ] ExecutorTest.BusMove
+[       OK ] ExecutorTest.BusMove (0 ms)
+[ RUN      ] ExecutorTest.FastMode
+[       OK ] ExecutorTest.FastMode (0 ms)
+[ RUN      ] ExecutorTest.BackMode
+[       OK ] ExecutorTest.BackMode (0 ms)
+[ RUN      ] ExecutorTest.TurnRoundNormal
+[       OK ] ExecutorTest.TurnRoundNormal (0 ms)
+[----------] 5 tests from ExecutorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"ExecutorTest" end time: Dec 02 15:10 中国标准时间
+"ExecutorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 02 15:10 中国标准时间
