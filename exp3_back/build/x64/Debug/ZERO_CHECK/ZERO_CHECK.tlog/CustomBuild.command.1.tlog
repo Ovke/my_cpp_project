@@ -1,0 +1,10 @@
+^C:\USERS\OVKE\DESKTOP\CTEST\EXP3_BACK\BUILD\CMAKEFILES\7C9CA47F42EB8D508D9892F067288E0E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Ovke/Desktop/CTest/exp3_back -BC:/Users/Ovke/Desktop/CTest/exp3_back/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ovke/Desktop/CTest/exp3_back/build/exp3_back.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
